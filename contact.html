@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tarifs & Réservations | ParaTandem</title>
+    <meta name="description" content="La super description de mon premier site">
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html"><span>P</span>ara<span>T</span>andem</a></h1>
+    </header>
+
+    <nav>
+        <a href="index.html" title="Aller à la page d'accueil">Accueil</a>
+        <a href="qui-sommes-nous.html" title="Présentation de notre société">Qui sommes-nous?</a>
+        <a href="contact.html" title="Contactez-nous">Contact & Tarifs</a>
+    </nav>
+
+    <p>Réservez votre premier saut</p>
+
+
+    <main>
+        <article>
+            <h2>Tarifs</h2>
+            <div>
+                <h3>Saut tandem</h3>
+                <p>Niveau d'accès
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </p>
+                <p>Technique
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </p>
+                <p>à partir de <span>350€</span></p>
+            </div>
+            <div>
+                <h3>Saut initiation</h3>
+                <p>Niveau d'accès
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </p>
+                <p>Technique
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </p>
+                <p>à partir de <span>500€</span></p>
+            </div>
+            <div>
+                <h3>Stage PAC</h3>
+                <p>Niveau d'accès
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </p>
+                <p>Technique
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </p>
+                <p>à partir de <span>700€</span></p>
+            </div>
+        </article>
+
+        <h2>Réservez</h2>
+
+
+        <form method="get" action="formulaire.php">
+            <div>
+                <label for="nom">Nom <sup>*</sup></label>
+                <input id="nom" type="text" name="last-name" placeholder="Veuillez saisir votre nom" required>
+            </div>
+
+            <div>
+                <label for="prenom">Prénom <sup>*</sup></label>
+                <input id="prenom" type="text" name="first-name" placeholder="Veuillez saisir votre prénom" required>
+            </div>
+
+            <div>
+                <label for="mail">E-mail <sup>*</sup></label>
+                <input id="mail" type="email" name="mail" placeholder="Veuillez saisir votre E-mail" required>
+            </div>
+
+            <div>
+                <label for="phone">Téléphone</label>
+                <input id="phone" type="tel" name="phone" placeholder="Veuillez saisir votre Téléphone">
+            </div>
+
+            <div>
+                <label for="objet">Votre demande concerne<sup>*</sup></label>
+                <select id="objet" name="product-type" required>
+					<option value="">---</option>
+					<option value="Saut tandem">Saut tandem</option>
+					<option value="Saut d'initiation">Saut d'initiation</option>
+					<option value="Stage PAC">Stage PAC</option>
+					<option value="Autre demande">Autre demande</option>
+				</select>
+            </div>
+            <div>
+                <label for="message">Votre message</label>
+                <textarea id="message" placeholder="Veuillez saisir votre message" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="Envoyer">
+            </div>
+        </form>
+
+
+        <h2>Notre espace de saut</h2>
+        <p><strong>ParaTandem</strong><br> 3 Stade des jardins<br> Route départementale 3<br> 95842 - Saint-Aubin-Les-Treilles</p>
+
+
+    </main>
+    <footer>
+        <p>
+            <a href="politique-de-confidentialite.html">Politique de confidentialité</a>
+            <a href="mentions-legales.html">Mentions légales</a>
+        </p>
+        <p><small>&copy; 2019 - ParaTandem</small></p>
+        <p><a href="#">Remonter</a></p>
+    </footer>
+
+</body>
+
+</html>
